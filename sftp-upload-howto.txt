@@ -1,0 +1,27 @@
+user@debian:~/flora-linux/japanese-edition/snapshot-20220724$
+sftp usergreen@frs.sourceforge.net
+
+sftp>
+cd /home/frs/project/antix-respin-iso/japanese/icewm-20230331
+
+sftp>
+put icewm-20230331_1255.iso
+
+sftp>
+exit
+
+---------------------------------------------------------
+[Template]
+
+$ sftp jsmith@frs.sourceforge.net
+Connecting to frs.sourceforge.net...
+jsmith@frs.sourceforge.net's password: 
+sftp> cd /home/frs/project/fooproject/release1
+sftp> put file.zip
+Uploading file.zip to /home/frs/project/fooproject/release1/file.zip
+ws                                            100% 1573     1.5KB/s   00:00    
+sftp>
+
+
+https://sourceforge.net/p/forge/documentation/Release%20Files%20for%20Download/#sftp
+

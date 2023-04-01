@@ -1,0 +1,4 @@
+Source code is available from many existing antiX official mirrors around the globe:
+
+https://antixlinux.com/mirmon-packages/
+
