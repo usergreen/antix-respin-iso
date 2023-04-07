@@ -4,3 +4,7 @@ https://www.antixforum.com/forums/topic/how-to-install-the-iptv-application-hypn
 
 hypnotix project
 https://github.com/linuxmint/hypnotix
+
+FYR:
+aCSTV — update to new version 1.08, fit for antiX22
+https://www.antixforum.com/forums/topic/acstv-update-to-new-version-1-08-fit-for-antix22/
