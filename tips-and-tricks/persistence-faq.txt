@@ -1,0 +1,30 @@
+Persistence Options
+
+off ......... No Persistence/No frugal
+persist_all ..... Save root in RAM, save home on disk (save root at shutdown))
+persist_root .... Save root and home in RAM then saved at shutdown
+persist_static .. Save root and home on disk with home separate on disk
+p_static_root .. Save root and home on disk together
+persist_home .... Only home persistence
+frugal_persist .. Frugal with root in RAM and home on disk
+frugal_root ..... Frugal with root and home in RAM then saved at shutdown
+frugal_static ... Frugal with root on disk and home separate on disk
+f_static_root ... Frugal with root and home on disk together
+frugal_home ..... Frugal with only home persistence
+frugal_only ..... Only Frugal, no persistence
+
+
+Persist Details:
+for details on some of these options.
+
+    Frugal
+    Copy files from the install media (LiveCD/USB) to an internal hard drive partition and finish booting from that. Think of this as a to-disk analogy of toram boot parameter.
+    Root Persist
+    Save all the changes to the file-system in RAM and then transfer these changes to disk right before you shutdown or reboot. Fast, but space is limited by how much RAM you have.
+    Static Root
+    Saves all your file-system changes directly to a file. This can be slow but it requires no extra RAM and no changes need to be transfered when you shutdown.
+    Home Persist
+    Only save changes to files and directories under /home. This will include all of your bookmarks and personal settings. Changes are stored immediately and speed is almost never an issue.
+
+http://download.tuxfamily.org/antix/docs-antiX-19/Boot_Menu/antiX-gfxboot.html#persist
+

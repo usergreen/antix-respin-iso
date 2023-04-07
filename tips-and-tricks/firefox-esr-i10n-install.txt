@@ -1,0 +1,24 @@
+apt install firefox-esr-l10n-de firefox-esr-l10n-es-es firefox-esr-l10n-el firefox-esr-l10n-fr firefox-esr-l10n-hi-in firefox-esr-l10n-hr firefox-esr-l10n-hu firefox-esr-l10n-id firefox-esr-l10n-it firefox-esr-l10n-ja firefox-esr-l10n-nl firefox-esr-l10n-pl firefox-esr-l10n-pt-br firefox-esr-l10n-ru firefox-esr-l10n-sv-se firefox-esr-l10n-zh-tw
+
+
+root@antix1:/home/demo# apt install firefox-esr-l10n-de firefox-esr-l10n-es-es firefox-esr-l10n-el firefox-esr-l10n-fr firefox-esr-l10n-hi-in firefox-esr-l10n-hr firefox-esr-l10n-hu firefox-esr-l10n-id firefox-esr-l10n-it firefox-esr-l10n-ja firefox-esr-l10n-nl firefox-esr-l10n-pl firefox-esr-l10n-pt-br firefox-esr-l10n-ru firefox-esr-l10n-sv-se firefox-esr-l10n-zh-tw
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+Recommended packages:
+  hunspell-de-de | hunspell-de-at | hunspell-de-ch hunspell-el | myspell-el-gr
+  hunspell-es | myspell-es hunspell-fr | myspell-fr | myspell-fr-gut
+  hunspell-hi hunspell-hr hunspell-hu | myspell-hu hunspell-id hunspell-it
+  hunspell-nl hunspell-pl | myspell-pl hunspell-pt-br | myspell-pt-br
+  hunspell-ru | myspell-ru hunspell-sv-se
+The following NEW packages will be installed:
+  firefox-esr-l10n-de firefox-esr-l10n-el firefox-esr-l10n-es-es
+  firefox-esr-l10n-fr firefox-esr-l10n-hi-in firefox-esr-l10n-hr
+  firefox-esr-l10n-hu firefox-esr-l10n-id firefox-esr-l10n-it
+  firefox-esr-l10n-ja firefox-esr-l10n-nl firefox-esr-l10n-pl
+  firefox-esr-l10n-pt-br firefox-esr-l10n-ru firefox-esr-l10n-sv-se
+  firefox-esr-l10n-zh-tw
+0 upgraded, 16 newly installed, 0 to remove and 0 not upgraded.
+Need to get 9,757 kB of archives.
+After this operation, 12.1 MB of additional disk space will be used.
+
