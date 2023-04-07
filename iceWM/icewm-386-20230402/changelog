@@ -1,0 +1,14 @@
+Changelog from the Official antiX-22-386.iso:
+
+
+Added Synaptic package manager for convenience
+
+Added uim input method framework for multilingualization
+
+Set uim an multilingual input method framework into startup session
+
+Updated to the up-to-date official base as of 2023-04-02
+
+
+END.
+
