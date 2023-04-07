@@ -1,0 +1,12 @@
+Changelog:
+
+
+Replaced Seamonkey browser with Firefox-esr as same as in antiX-full.iso
+
+Restore the default single-click policy instead of the previous custom double-click
+
+Updated to the up-to-date official base as of 2023-04-04
+
+
+END.
+
