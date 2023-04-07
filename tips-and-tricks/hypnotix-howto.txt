@@ -1,5 +1,6 @@
 
 How to install the IPTV application “Hypnotix”?
-
 https://www.antixforum.com/forums/topic/how-to-install-the-iptv-application-hypnotix/#post-84016
 
+hypnotix project
+https://github.com/linuxmint/hypnotix
