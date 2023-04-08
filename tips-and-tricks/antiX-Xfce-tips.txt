@@ -1,0 +1,7 @@
+
+「デスクトップ環境が XDG 自動起動をサポートしていない場合は、スタートアップスクリプトに追加する必要があります。」
+http://no-windows.blog.jp/archives/89728975.html
+
+超軽量Linux：antiXをXfceデスクトップにすると簡単に日本語化できました！
+http://no-windows.blog.jp/archives/81883526.html
+

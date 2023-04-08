@@ -1,0 +1,31 @@
+root@antix1:/home/demo# apt install uim-anthy uim im-config zenity kasumi uim-gtk2.0 uim-gtk3 uim-qt5 uim-xim uim-fep fonts-vlgothic
+パッケージリストを読み込んでいます... 完了
+依存関係ツリーを作成しています... 完了        
+状態情報を読み取っています... 完了        
+fonts-vlgothic はすでに最新バージョン (20200720-1) です。
+以下の追加パッケージがインストールされます:
+  anthy anthy-common bubblewrap libanthy1 libanthyinput0 libgcroots0 libgd3
+  libgstreamer-gl1.0-0 libharfbuzz-icu0 libhyphen0 libjavascriptcoregtk-4.0-18
+  libm17n-0 libmanette-0.2-0 libopengl0 libotf0 libqt5x11extras5
+  libuim-custom2 libuim-data libuim-scm0 libuim8 libwebkit2gtk-4.0-37 libwoff1
+  libwpe-1.0-1 libwpebackend-fdo-1.0-1 libxslt1.1 m17n-db uim-data
+  uim-gtk2.0-immodule uim-gtk3-immodule uim-plugins uim-qt5-immodule
+  xdg-dbus-proxy zenity-common
+提案パッケージ:
+  libgd-tools m17n-docs
+推奨パッケージ:
+  gstreamer1.0-gl xdg-desktop-portal-gtk gstreamer1.0-plugins-bad
+以下のパッケージが新たにインストールされます:
+  anthy anthy-common bubblewrap im-config kasumi libanthy1 libanthyinput0
+  libgcroots0 libgd3 libgstreamer-gl1.0-0 libharfbuzz-icu0 libhyphen0
+  libjavascriptcoregtk-4.0-18 libm17n-0 libmanette-0.2-0 libopengl0 libotf0
+  libqt5x11extras5 libuim-custom2 libuim-data libuim-scm0 libuim8
+  libwebkit2gtk-4.0-37 libwoff1 libwpe-1.0-1 libwpebackend-fdo-1.0-1
+  libxslt1.1 m17n-db uim uim-anthy uim-data uim-fep uim-gtk2.0
+  uim-gtk2.0-immodule uim-gtk3 uim-gtk3-immodule uim-plugins uim-qt5
+  uim-qt5-immodule uim-xim xdg-dbus-proxy zenity zenity-common
+アップグレード: 0 個、新規インストール: 43 個、削除: 0 個、保留: 0 個。
+38.9 MB のアーカイブを取得する必要があります。
+この操作後に追加で 147 MB のディスク容量が消費されます。
+続行しますか? [Y/n] 
+

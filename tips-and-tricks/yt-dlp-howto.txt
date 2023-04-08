@@ -1,0 +1,58 @@
+root@mx1:/home/demo# apt -s install yt-dlp
+パッケージリストを読み込んでいます... 完了
+依存関係ツリーを作成しています... 完了        
+状態情報を読み取っています... 完了        
+以下の追加パッケージがインストールされます:
+  ffmpeg python3-brotli python3-mutagen python3-pycryptodome python3-pyxattr
+  python3-websockets rtmpdump
+提案パッケージ:
+  ffmpeg-doc python-mutagen-doc python3-pyxattr-dbg python-pyxattr-doc
+  libfribidi-bin | bidiv phantomjs
+推奨パッケージ:
+  mpv | mplayer
+以下のパッケージが新たにインストールされます:
+  ffmpeg python3-brotli python3-mutagen python3-pycryptodome python3-pyxattr
+  python3-websockets rtmpdump yt-dlp
+アップグレード: 0 個、新規インストール: 8 個、削除: 0 個、保留: 0 個。
+Inst ffmpeg (7:4.3.5-0.1+mx21+1 MX repository:21.0/mx [amd64])
+Inst python3-brotli (1.0.9-2+b2 Debian:11.6/stable [amd64])
+Inst python3-mutagen (1.45.1-2 Debian:11.6/stable [all])
+Inst python3-pycryptodome (3.9.7+dfsg1-1+b2 Debian:11.6/stable [amd64])
+Inst python3-pyxattr (0.7.2-1+b1 Debian:11.6/stable [amd64])
+Inst python3-websockets (8.1-1 Debian:11.6/stable [all])
+Inst rtmpdump (2.4+20151223.gitfa8646d.1-2+b2 Debian:11.6/stable [amd64])
+Inst yt-dlp (2023.03.04-1mx21+1 MX repository:21.0/mx [all])
+Conf ffmpeg (7:4.3.5-0.1+mx21+1 MX repository:21.0/mx [amd64])
+Conf python3-brotli (1.0.9-2+b2 Debian:11.6/stable [amd64])
+Conf python3-mutagen (1.45.1-2 Debian:11.6/stable [all])
+Conf python3-pycryptodome (3.9.7+dfsg1-1+b2 Debian:11.6/stable [amd64])
+Conf python3-pyxattr (0.7.2-1+b1 Debian:11.6/stable [amd64])
+Conf python3-websockets (8.1-1 Debian:11.6/stable [all])
+Conf rtmpdump (2.4+20151223.gitfa8646d.1-2+b2 Debian:11.6/stable [amd64])
+Conf yt-dlp (2023.03.04-1mx21+1 MX repository:21.0/mx [all])
+root@mx1:/home/demo# 
+
+
+demo@mx1:~$ yt-dlp
+
+Usage: yt-dlp [OPTIONS] URL [URL...]
+
+yt-dlp: error: You must provide at least one URL.
+Type yt-dlp --help to see a list of all options.
+demo@mx1:~$ 
+demo@mx1:~$ yt-dlp https://www.youtube.com/watch?v=HaA3YZ6QdJU
+[youtube] Extracting URL: https://www.youtube.com/watch?v=HaA3YZ6QdJU
+[youtube] HaA3YZ6QdJU: Downloading webpage
+[youtube] HaA3YZ6QdJU: Downloading android player API JSON
+[info] HaA3YZ6QdJU: Downloading 1 format(s): 248+251
+[dashsegments] Total fragments: 1
+[download] Destination: Billy Joel - Just the Way You Are (Audio) [HaA3YZ6QdJU].f248.webm
+[download] 100% of    6.74MiB in 00:00:20 at 329.85KiB/s
+[dashsegments] Total fragments: 1
+[download] Destination: Billy Joel - Just the Way You Are (Audio) [HaA3YZ6QdJU].f251.webm
+[download] 100% of    5.03MiB in 00:00:20 at 248.83KiB/s
+[Merger] Merging formats into "Billy Joel - Just the Way You Are (Audio) [HaA3YZ6QdJU].webm"
+Deleting original file Billy Joel - Just the Way You Are (Audio) [HaA3YZ6QdJU].f251.webm (pass -k to keep)
+Deleting original file Billy Joel - Just the Way You Are (Audio) [HaA3YZ6QdJU].f248.webm (pass -k to keep)
+demo@mx1:~$ 
+

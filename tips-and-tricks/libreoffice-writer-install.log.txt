@@ -1,0 +1,45 @@
+root@mx1:/home/demo# apt install libreoffice-writer
+パッケージリストを読み込んでいます... 完了
+依存関係ツリーを作成しています... 完了        
+状態情報を読み取っています... 完了        
+以下の追加パッケージがインストールされます:
+  fonts-opensymbol libabw-0.1-1 libboost-filesystem1.74.0
+  libboost-locale1.74.0 libboost-thread1.74.0 libclucene-contribs1v5
+  libclucene-core1v5 libcmis-0.5-5v5 libe-book-0.1-1 libeot0 libepubgen-0.1-1
+  libetonyek-0.1-1 libexttextcat-2.0-0 libexttextcat-data libgpgmepp6
+  liblangtag-common liblangtag1 libmhash2 libmwaw-0.3-3 libmythes-1.2-0
+  libneon27-gnutls libnumbertext-1.0-0 libnumbertext-data libodfgen-0.1-1
+  liborcus-0.16-0 liborcus-parser-0.16-0 libqrcodegencpp1 libraptor2-0
+  librasqal3 librdf0 libreoffice-base-core libreoffice-common libreoffice-core
+  libreoffice-style-colibre librevenge-0.0-0 libstaroffice-0.0-0 libuno-cppu3
+  libuno-cppuhelpergcc3-3 libuno-purpenvhelpergcc3-3 libuno-sal3
+  libuno-salhelpergcc3-3 libwpd-0.10-10 libwpg-0.3-3 libwps-0.4-4 libxmlsec1
+  libxmlsec1-nss libyajl2 uno-libs-private ure
+提案パッケージ:
+  raptor2-utils rasqal-utils librdf-storage-postgresql librdf-storage-mysql
+  librdf-storage-sqlite librdf-storage-virtuoso redland-utils libreoffice-base
+  fonts-crosextra-caladea fonts-crosextra-carlito libreoffice-java-common
+  default-jre | java8-runtime | jre
+推奨パッケージ:
+  fonts-liberation2 | ttf-mscorefonts-installer apparmor python3-uno
+  gstreamer1.0-plugins-bad libreoffice-math libjuh-java libjurt-java
+  liblibreoffice-java libridl-java libunoloader-java
+以下のパッケージが新たにインストールされます:
+  fonts-opensymbol libabw-0.1-1 libboost-filesystem1.74.0
+  libboost-locale1.74.0 libboost-thread1.74.0 libclucene-contribs1v5
+  libclucene-core1v5 libcmis-0.5-5v5 libe-book-0.1-1 libeot0 libepubgen-0.1-1
+  libetonyek-0.1-1 libexttextcat-2.0-0 libexttextcat-data libgpgmepp6
+  liblangtag-common liblangtag1 libmhash2 libmwaw-0.3-3 libmythes-1.2-0
+  libneon27-gnutls libnumbertext-1.0-0 libnumbertext-data libodfgen-0.1-1
+  liborcus-0.16-0 liborcus-parser-0.16-0 libqrcodegencpp1 libraptor2-0
+  librasqal3 librdf0 libreoffice-base-core libreoffice-common libreoffice-core
+  libreoffice-style-colibre libreoffice-writer librevenge-0.0-0
+  libstaroffice-0.0-0 libuno-cppu3 libuno-cppuhelpergcc3-3
+  libuno-purpenvhelpergcc3-3 libuno-sal3 libuno-salhelpergcc3-3 libwpd-0.10-10
+  libwpg-0.3-3 libwps-0.4-4 libxmlsec1 libxmlsec1-nss libyajl2
+  uno-libs-private ure
+アップグレード: 0 個、新規インストール: 50 個、削除: 0 個、保留: 0 個。
+78.7 MB のアーカイブを取得する必要があります。
+この操作後に追加で 283 MB のディスク容量が消費されます。
+続行しますか? [Y/n] 
+

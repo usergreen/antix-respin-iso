@@ -1,0 +1,16 @@
+How to disable touchpad from commandline?
+
+
+try this.
+
+to disable:
+
+synclient TouchpadOff=1
+
+
+to re-enable
+
+synclient TouchpadOff=0
+ 
+ 
+https://antixlinux.com/forum-archive/how-to-disable-touchpad-t6914.html

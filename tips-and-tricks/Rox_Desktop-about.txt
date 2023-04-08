@@ -1,0 +1,4 @@
+ROX Desktop――GNOMEやKDEより軽快に動作する癖の強いデスクトップ環境
+https://mag.osdn.jp/07/02/09/0024235
+
+デフォルトの「Rox-IceWM」
