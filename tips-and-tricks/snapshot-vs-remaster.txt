@@ -1,4 +1,4 @@
-There was a topic about snapshot-vs-remaster in the antiX forum:
+There was an interesting topic about snapshot-vs-remaster in the antiX forum:
 
 topic title: snapshot vs remaster
 https://antixlinux.com/forum-archive/snapshot-vs-remaster-t5595.html
