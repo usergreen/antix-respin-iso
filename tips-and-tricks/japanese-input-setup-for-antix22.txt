@@ -2,37 +2,56 @@
 How to setup Japanese input by uim
 
 
+*** Installation of Packages ***
 demo@antix1:~
 $ su
 パスワード:
 root@antix1:/home/demo# apt install uim-anthy uim im-config zenity kasumi uim-gtk2.0 uim-gtk3 uim-qt5 uim-xim uim-fep fonts-vlgothic
 
 
+*** For Users' Settings ***
 メニュー --> コントロールセンタ --> Session --> ユーザーのデスクトップセッション（User Desktop-Session）
 
-startup tab
-Add at the end:
+Open "startup" tab
+Add the following lines at the end:
 
 # uim-autostart
 uim-autostart &
 uim-toolbar-gtk3 &
 #uim-toolbar-gtk3-systray &
 
-desktop-session-conf tab
-Add at the end:
+Open "desktop-session-conf" tab
+Add the following lines at the end:
 
 # set uim
 export GTK_IM_MODULE=uim
 export QT_IM_MODULE=uim
 export XMODIFIERS=@im=uim
 
+*** For Global Settings ***
+Open /etc/desktop-session/startup file.
+Add the following lines at the end:
 
-ツールバーを使用する場合。
+# uim-autostart
+uim-autostart &
+
+Open /etc/environment file.
+Add the following lines at the end:
+
+# set uim
+export GTK_IM_MODULE=uim
+export QT_IM_MODULE=uim
+export XMODIFIERS=@im=uim
+
+------------------------------------------------
+
+ツールバーを使用する場合（端末より）。
 $ uim-toolbar-gtk3 &
 
-システムトレイでツールバーを使用する場合。
+システムトレイでツールバーを使用する場合（端末より）。
 $ uim-toolbar-gtk3-systray &
 
+------------------------------------------------
 
 参考外部リンク：
 https://wiki.archlinux.jp/index.php/Uim_を使って日本語を入力#.E8.A8.AD.E5.AE.9A
