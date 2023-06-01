@@ -1,0 +1,27 @@
+
+apt update
+
+apt upgrade
+
+apt install synaptic
+
+apt remove seamonkey
+
+apt install firefox-esr
+
+apt install firefox-esr-l10n-de firefox-esr-l10n-es-es firefox-esr-l10n-el firefox-esr-l10n-fr firefox-esr-l10n-hi-in firefox-esr-l10n-hr firefox-esr-l10n-hu firefox-esr-l10n-id firefox-esr-l10n-it firefox-esr-l10n-ja firefox-esr-l10n-nl firefox-esr-l10n-pl firefox-esr-l10n-pt-br firefox-esr-l10n-ru firefox-esr-l10n-sv-se firefox-esr-l10n-zh-tw
+
+apt install sylpheed sylpheed-i18n
+
+apt install uim-anthy uim im-config zenity kasumi uim-gtk2.0 uim-gtk3 uim-qt5 uim-xim uim-fep fonts-vlgothic
+
+apt full-upgrade
+## Install: iso-snapshot:amd64 (23.05.02, automatic)
+## Upgrade: iso-template-antix:amd64 (20.09, 23.02.28)
+## Remove: iso-snapshot-antix:amd64 (0.4.14)
+
+apt autoremove
+
+apt clean
+
+END.
