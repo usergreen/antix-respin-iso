@@ -1,0 +1,16 @@
+Changelog
+
+2023-11-22 11:19 UTC
+Set uim input method in system-wide
+Applied all latest updates so far
+
+2023-09-02 10:19 UTC:
+The followings are changes from Official antiX-23_x64-base.iso:
+Replaced Seamonkey browser with Firefox-ESR
+Replaced Seamonkey Mail with Sylpheed
+Added gnome-screenshot and LazPaint
+Added Synatic package manager
+Added uim to support multilingualization
+Removed Dynamic Kernel Module Support
+
+END.
