@@ -1,0 +1,72 @@
+How to make a custom respin using antiX-23_base_x86.iso:
+
+apt update
+
+apt remove dkms
+
+apt remove seamonkey
+
+apt upgrade
+
+apt install synaptic
+
+apt install firefox-esr
+
+apt install firefox-esr-l10n-de firefox-esr-l10n-es-es firefox-esr-l10n-el firefox-esr-l10n-fr firefox-esr-l10n-hi-in firefox-esr-l10n-hr firefox-esr-l10n-hu firefox-esr-l10n-id firefox-esr-l10n-it firefox-esr-l10n-ja firefox-esr-l10n-nl firefox-esr-l10n-pl firefox-esr-l10n-pt-br firefox-esr-l10n-ru firefox-esr-l10n-sv-se firefox-esr-l10n-zh-tw
+
+apt install sylpheed sylpheed-i18n aspell-en
+
+apt install uim-anthy uim im-config zenity kasumi uim-gtk2.0 uim-gtk3 uim-qt5 uim-xim uim-fep fonts-vlgothic fonts-ipafont-mincho
+
+apt install uim-chewing uim-pinyin fonts-wqy-microhei
+
+apt install geany geany-plugin-spellcheck
+
+apt install gnome-screenshot lazpaint-gtk2
+
+apt install system-config-printer
+
+//apt install libgdk-pixbuf2.0-bin
+
+# Confirm users locale as below
+#
+# locale -a
+# demo@mx1:~
+# $ locale -a
+# C
+# C.utf8
+# en_US.utf8
+# POSIX
+
+# If you want to use arbitrary locales, set as below for example.
+# Run the command below.
+#
+# dpkg-reconfigure locales
+#
+# 167,164,72,81,110,134,151,160,220,235,97,241,271,154,157,314,317
+
+de_DE.UTF-8... done - German locale for Germany
+el-GR.UTF-8... done - Greek locale for Greece
+en_US.UTF-8... done - English locale for the USA
+es_ES.UTF-8... done - Spanish locale for Spain
+fr_FR.UTF-8... done - French locale for France
+hi_IN.UTF-8... done - Hindi language locale for India
+hr_HR.UTF-8... done - Croatian locale for Croatia
+hu_HU.UTF-8... done - Hungarian locale for Hungary
+id_ID.UTF-8... done - Indonesian locale for Indonesia
+it_IT.UTF-8... done - Italian locale for Italy
+ja_JP.UTF-8... done - Japanese language locale for Japan
+nl_NL.UTF-8... done - Dutch locale for the Netherlands
+pt_BR.UTF-8... done - Portuguese locale for Brasil
+ru_RU.UTF-8... done - Russian locale for Russia
+sv_SE.UTF-8... done - Swedish locale for Sweden
+zh_CN.UTF-8... done - Chinese locale for Peoples Republic of China
+zh_TW.UTF-8... done - Chinese locale for Taiwan R.O.C.
+
+# Then, set default locale into "None" (1) and exit.
+
+apt autoremove
+
+apt clean
+
+END.
