@@ -1,0 +1,8 @@
+How to change default wallpaper of antiX-21/23
+
+
+Edit the following configuration file below:
+
+/usr/share/desktop-session/desktop-session-wallpaper/wallpaper.conf
+
+End.

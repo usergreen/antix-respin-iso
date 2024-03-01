@@ -1,0 +1,19 @@
+Change.log:
+
+
+2023-11-25 18:21 EST:
+This is the first release of antiX-23 re-spin for i386 arch.
+
+The followings are changes from Official antiX-23_x64-base.iso:
+Replaced Seamonkey browser with Firefox-ESR
+Replaced Seamonkey Mail with Sylpheed
+Added gnome-screenshot and LazPaint
+Added Synatic package manager
+Added System-config-printer for GUI
+Added uim to support multilingualization
+Set uim input method in system-wide
+Removed Dynamic Kernel Module Support
+Adopted no wallpaper: solid color Deap Ocean Blue (#336699).
+Applied all latest updates so far
+
+END.
